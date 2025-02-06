@@ -8,8 +8,153 @@
 </head>
 <body>
     <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <nav><ul><li>Home</li><li>News</li><li>Weather</li><li>About</li></ul></nav>
+    <main><section class="weather-section">
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather summary</h2>
+                  <h3 id="five-city">Salt Lake City</h3>
+                  <p>Currently: <span id="current-desc">Partly Cloudy</span></p>
+                  <p>
+                    Tempature:
+                    <span id="current-temp">93</span> °F
+                  </p>
+                  <p>Feels Like: <span id="current-feels like">90</span> °F</p>
+                  <p>Humidity: <span id="current-humid"></span>25%</p>
+                  <p>Wind Speed: <span id="current-windSpeed">N 8 mph</span> mph</p>
+                </div>
+              </section>
+              <div>
+                <img src="https://picsum.photos/400" alt="Random Image" />
+              </div>
+            </article>
+
+            <!-- 5 day forecast -->
+            <div class="article-five-day">
+              <article id="forecastContainer">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <h3 id="city">Salt Lake City</h3>
+                <div class="flex">
+                  <div class="flex-col">
+                    <span id="dayTitle1" class="col-head">Day 1</span>
+                    <img id="weatherIcon1" class="weatherIcon" />
+                    <span class="temp-data">
+                      <span id="data1">105</span>
+                      <span>°F</span>
+                    </span>
+                  </div>
+                  <div class="flex-col">
+                    <span id="dayTitle2" class="col-head">Day 2</span>
+                    <img id="weatherIcon2" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data2">103</span>
+                      <span>°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <span id="dayTitle3" class="col-head">Day 3</span>
+                    <img id="weatherIcon3" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data3">102</span>
+                      <span>°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <span id="dayTitle4" class="col-head">Day 4</span>
+                    <img id="weatherIcon4" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data4">95</span>
+                      <span>°F</span>
+                    </div>
+                  </div>
+                  <div class="flex-col">
+                    <span id="dayTitle5" class="col-head">Day 5</span>
+                    <img id="weatherIcon5" class="weatherIcon" />
+                    <div class="temp-data">
+                      <span id="data5">102</span>
+                      <span>°F</span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+</main><section class="news-section">
+    <div class="page">
+      <h1>LATEST NEWS</h1>
+      <div class="archive">
+        <article class="article">
+          <img id="header-img" alt="main article" />
+          <h2>
+            <a id="header-article"></a>
+          </h2>
+          <p id="header-desc">No Article Description.</p>
+        </article>
+        <article class="article">
+          <img
+            id="article-img-1"
+            src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2
+
+            "
+            alt="main article"
+          />
+          <h3>
+            <a id="article-link-1">No Article Title</a>
+          </h3>
+          <p id="article-desc-1">No Article Description.</p>
+        </article>
+        <article class="article">
+            <img
+              id="article-img-1"
+              src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2
+  
+              "
+              alt="main article"
+            />
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article>
+          <article class="article">
+            <img
+              id="article-img-1"
+              src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2
+  
+              "
+              alt="main article"
+            />
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article><article class="article">
+            <img
+              id="article-img-1"
+              src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=2
+  
+              "
+              alt="main article"
+            />
+            <h3>
+              <a id="article-link-1">No Article Title</a>
+            </h3>
+            <p id="article-desc-1">No Article Description.</p>
+          </article>
+      </div>
+    </div>
+  </section>
+    <footer><hr />
+        &copy; <span id="year">2025</span> | Sioeli Taumalolo | <a href="https://tooeletech.edu/" target="_blank" rel="noopener noreferrer">Tooele Technical College</a>
+        <br>
+        last updated: Mon Feb 03 2025 <span id="updated"></span></footer>
 </body>
 </html>
